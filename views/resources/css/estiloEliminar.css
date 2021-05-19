@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/*
+*Cambiar la fila del producto seleccionado
+*/
+.seleccionado{
+
+    background: rgba(200, 233, 207, 0.726);
+    
+}
+
+body{
+
+    background: rgba(33, 107, 33, 0.788);
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+
+}
+
+section>p{
+
+    background: rgba(255, 255, 255, 0.308);
+    color: rgb(4, 44, 35);
+    padding: 4%;
+    margin: 4% auto;
+    border-radius: 3%;
+
+}
+
+form{
+
+    margin-left: 20%;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.308);
+    color: rgb(4, 44, 35);
+    padding: 5%;
+    border-radius: 3%;
+
+}
+
+tbody>tr>td>button{
+
+    border: none;
+    margin-left: 35%;
+    background: #146903;
+    color: white;
+
+}
+
+.btnsubmit{
+
+    clear: both;
+    border: none;
+    background: #146903;
+    color: white;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+
+}
+
+.btnbutton{
+
+    clear: both;
+    border: none;
+    background: #146903;
+    color: white;
+    margin: 2% 3%;
+    border-radius: 5%;
+
+}
+
+header{
+
+    text-align: center;
+    color: white;
+
+}
+
+section{
+
+    margin-left: 35%;
+    height: auto;
+    width: 400px;
+
+}
+
+table,th,td{
+
+    font-weight: 700;
+    color: rgb(27, 26, 26);
+    background: rgba(78, 190, 87, 0.473);
+    border: 1px solid rgb(65, 88, 18);
+
+}
+
+th{
+
+    background: rgba(255, 255, 255, 0.39);
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+
+}
+
+a:hover{
+
+    background: #8ba302;
+	color: rgb(16, 51, 17);
+	transition: background 1s, color 1s;
+
+}
+
+footer{
+
+    text-align: center;
+
+}
+
+footer>p{
+
+    font-style: italic;
+    color: white;
+
+}
+
+footer>a{
+
+    border-radius: 3%;
+    background: rgba(121, 189, 89, 0.534);
+    color: white;
+    text-decoration: none;
+
+
+}
